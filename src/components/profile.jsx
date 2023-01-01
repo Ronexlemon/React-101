@@ -1,5 +1,9 @@
+import coffee from "../asset/download.jpeg"
+import world from "../asset/world.jpeg"
+import email from "../asset/email.jpeg"
+import logo from "../asset/logo.jpeg"
 const people = [
-    
+       
      
         'https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
    
@@ -30,15 +34,36 @@ const people = [
       //     </li>
       //   ))}
       // </ul>
-      <div className=" grid grid-cols-2 grid-4 grid bg-black h-1/4 w-1/2">
+      <div className=" grid grid-cols-2 gap-40  bg-[url('../public/asset/prof.jpg')] bg-no-repeat bg-cover h-2/4 w-auto">
       <div>
- <img className=" rounded-full" src={people[0]}/>
+ <img className=" shadow-lg rounded max-w-full h-auto align-middle border-none" src={logo}/>
  
       </div>
-      <div className=" text-white">
-        <h1>
-          Hi, I'm Ronex 
+      <div className="text-white  w-auto">
+        <h1 className="text-white inline-flex">
+          Hi, I'm  <h1 className="text-blue-400 ml-2">Ronex</h1> 
         </h1>
+        <h1 className="hover:text-green-400">
+           I'm a BlockChain Developer (web3)
+           
+        </h1>
+        <div className="">
+        <img   className="w-5 h-5 rounded-full" src={coffee}/> <h6 className="font-size-xs">fueled By coffee</h6>
+        </div>
+        <div className="">
+        <img   className="w-5 h-5 rounded-full" src={world}/> <h6 className="font-size-xs">Based in kenya</h6>
+        </div>
+        <div className="">
+        <img   className="w-5 h-5 rounded-full" src={email}/> <h6 className="font-size-xs">ronexondimu@gmail.com</h6>
+        </div>
+        
+        
+       
+        
+       
+        
+        
+        
 
  
  

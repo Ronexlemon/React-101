@@ -6,7 +6,7 @@ import TopBar from './components/topbar';
 
 function App() {
   return ( 
-    <div className="w-full bg-black  h-full  bg-scroll padding-80 ">
+    <div className="w-full bg-black  h-full   bg-scroll padding-80  ">
       <TopBar/>
       <div className=' grid  h-screen  place-items-center'>
       
