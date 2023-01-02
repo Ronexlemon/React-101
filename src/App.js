@@ -1,25 +1,25 @@
 
 import './App.css';
 
-import TopBar from './components/topbar';
+
 import About from './components/about';
+import {Route,BrowserRouter,Routes} from "react-router-dom";
+import Profile from "./components/profile";
 
 
 function App() {
   return ( 
-    <div className="w-full bg-black  h-full   bg-scroll padding-80  ">
-      <TopBar/>
-      <div className=' grid  h-screen  place-items-center'>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/Home' element={<Profile/>}/>
+      <Route path='/' element={<Profile/>}/>
+      <Route path='/About' element={<About/>}/>
+      <Route path='About' element={<About/>}/>
+        
       
-     {/* <Profile head={"ronex"}/>
-      */}
-     <About/>
-      </div>
-      
-      
-      
-      
-    </div>
+    </Routes>
+    </BrowserRouter>
+   
   );
 }
 
