@@ -48,13 +48,13 @@ const people = [
            
         </h1>
         <div className="">
-        <img   className="w-5 h-5 rounded-full" src={coffee}/> <h6 className="font-size-xs">fueled By coffee</h6>
+        <img   className="w-5 h-5 rounded-full" src={coffee} alt="image"/> <h6 className="font-size-xs">fueled By coffee</h6>
         </div>
         <div className="">
-        <img   className="w-5 h-5 rounded-full" src={world}/> <h6 className="font-size-xs">Based in kenya</h6>
+        <img   className="w-5 h-5 rounded-full" src={world} alt="image"/> <h6 className="font-size-xs">Based in kenya</h6>
         </div>
         <div className="">
-        <img   className="w-5 h-5 rounded-full" src={email}/> <h6 className="font-size-xs">ronexondimu@gmail.com</h6>
+        <img   className="w-5 h-5 rounded-full" src={email} alt="image"/> <h6 className="font-size-xs">ronexondimu@gmail.com</h6>
         </div>
         
         

@@ -1,7 +1,8 @@
 
 import './App.css';
-import Profile from './components/profile';
+
 import TopBar from './components/topbar';
+import About from './components/about';
 
 
 function App() {
@@ -10,9 +11,9 @@ function App() {
       <TopBar/>
       <div className=' grid  h-screen  place-items-center'>
       
-     <Profile head={"ronex"}/>
-     
-     
+     {/* <Profile head={"ronex"}/>
+      */}
+     <About/>
       </div>
       
       
